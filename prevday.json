@@ -1,0 +1,60 @@
+{
+  "accountTransactions": [
+    {
+      "accountNumber": "601022222222",
+      "bankId": "BOFAFRPP",
+      "currency": "EUR",
+      "transactions": [
+        {
+          "asOfDate": "2017-11-21",
+          "transactionCode": "010",
+          "transactionDescription": "Opening Ledger Balance",
+          "transactionType": "Summary",
+          "amount": "100.80"
+        },
+        {
+          "asOfDate": "2017-11-21",
+          "transactionCode": "015",
+          "transactionDescription": "Closing Ledger Balance",
+          "transactionType": "Summary",
+          "amount": "99.80"
+        },
+        {
+          "asOfDate": "2017-11-21",
+          "transactionCode": "045",
+          "transactionDescription": "Collected/Closing Avail Bal",
+          "transactionType": "Summary",
+          "amount": "99.80"
+        },
+        {
+          "asOfDate": "2017-11-21",
+          "transactionCode": "100",
+          "transactionDescription": "Total Credits",
+          "transactionType": "Summary",
+          "amount": "0.00",
+          "itemCount": 0
+        },
+        {
+          "asOfDate": "2017-11-21",
+          "transactionCode": "400",
+          "transactionDescription": "Total Debits",
+          "transactionType": "Summary",
+          "amount": "1.00",
+          "itemCount": 1
+        },
+        {
+          "asOfDate": "2017-11-21",
+          "transactionCode": "508",
+          "transactionDescription": "International Money Trnsfr DR",
+          "transactionType": "Detail",
+          "amount": "1.00",
+          "creditDebitIndicator": "Debit",
+          "valueDate": "2017-11-21",
+          "customerReference": "CUSTREF123",
+          "bankReference": "555555555555",
+          "detailText": "BENEFICIARY UNSTRUCTURED DETAIL TEXT"
+        }
+      ]
+    }
+  ]
+}
